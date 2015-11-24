@@ -7,12 +7,12 @@ Package.describe({
 
 // Server-side push deps
 Npm.depends({
-  'apn' : '1.6.2', // '1.7.4', // working: 1.6.2
-  'node-gcm' : '0.9.6', // '0.12.0' // working: 0.9.6
+  'apn' : '1.7.5', // '1.7.4', // working: 1.6.2
+  'node-gcm' : '0.12.1', // '0.12.0' // working: 0.9.6
 });
 
 Cordova.depends({
-  'phonegap-plugin-push': '1.3.0'
+  'phonegap-plugin-push': '1.4.4'
 });
 
 Package.registerBuildPlugin({
